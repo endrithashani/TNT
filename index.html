@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>TNT</title>
+</head>
+<body>
+    <div class="main">
+        <div class="first-section">
+            <div class="header">
+                <img src="images/Logo.png" alt="TNT" >
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="header-line"></div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="first-section-content">
+                <div class="content-line"></div>
+                <div class="content-main">
+                    <div class="content-text">
+                        <p>HELLO WORLD!</p>
+                        <h1>We are creative agency. <br> We build digital work that</h1>
+                        <button class="content-btn">Explore our portfolio <img src="images/Arrow.png" alt="arrow"></button>
+                    </div>
+                    <div class="content-services">
+                        <div class="web-design">
+                            <div class="web-design-line"></div>
+                            <img src="images/Web-design-icon.svg" alt="Web Design">
+                            <h1 id="spacing">Web Design</h1>
+                            <p class="content-service-text">Sed ut perspiciatis unde omni iste natus error sit volunteer accusantum doloremque.</p>
+                            <button class="web-design-btn"><img src="images/Arrow-right-red.svg" alt="red arrow"></button>
+                        </div>
+                        <div class="digital-artwork">
+                            <div class="digital-artwork-line"></div>
+                            <img src="images/Planning-icon.svg" alt="Digital Artwork">
+                            <h1 id="spacing">Digital Artwork</h1>
+                            <p class="content-service-text">Sed ut perspiciatis unde omni iste natus error sit volunte.</p>
+                            <button class="digital-artwork-btn"><img src="images/Arrow-right-blue.svg" alt="blue arrow"></button>
+                        </div>
+                        <div class="website">
+                            <div class="website-line"></div>
+                            <img src="images/Web-icon.svg" alt="Website">
+                            <h1 id="spacing">Website</h1>
+                            <p class="content-service-text">Sed ut perspiciatis unde omni iste natus error sit volunteer accusantum doloremque. Ut perspiciatis unde omni iste natus error sit volunteer accusantum doloremque.</p>
+                            <button class="website-btn"><img src="images/Arrow-right-green.svg" alt="blue arrow"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow">
+            <div class="myslide fade">
+                <img src="images/autumn.jpg" alt="Autumn"/>
+                <div class="info">
+                <p>INFO</p>
+                <h2>Autumn</h2>
+                </div>      
+            </div>
+            <div class="myslide fade">
+                <img src="images/winter.jpeg" alt="Winter"/>
+                <div class="info">
+                <p>INFO</p>
+                <h2>Winter</h2>
+                </div>
+            </div>   
+            <div class="myslide fade">
+                <img src="images/beach.jpeg" alt="Summer"/>
+                <div class="info">
+                <p>INFO</p>
+                <h2>Summer</h2>
+                </div>
+            </div>
+            <div class="dotsbox">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>  
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
